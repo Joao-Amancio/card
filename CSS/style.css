@@ -1,0 +1,137 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(182, 248, 182, 0.247);
+}
+/*Create the card container*/
+.birthdayCard {
+  position: relative;
+  border-radius: 20px;
+  width: 580px;
+  height: 333px;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform: perspective(2500px);
+  transition: 4s;
+}
+
+.birthdayCard:hover {
+  transform: perspective(2500px) rotate(5deg);
+  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.15),
+    0 10px 100px rgba(0, 0, 0, 0.3);
+}
+
+.birthdayCard:hover .cardFront {
+  transform: rotateY(-160deg);
+}
+
+.birthdayCard:hover .front-text {
+  display: none;
+}
+
+.birthdayCard:hover .wrap-deco {
+  display: none;
+}
+/**********/
+
+.birthdayCard:hover .wrap-decoTwo {
+  display: none;
+}
+
+.birthdayCard:hover .plate {
+  display: none;
+}
+/**********/
+
+/*Style the front of the card*/
+.cardFront {
+  position: relative;
+  border-radius: 20px;
+  background-image: url("../assets/img3.png");
+  width: 580px;
+  height: 333px;
+  overflow: hidden;
+  transform-origin: left;
+  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.13),
+    30px 0 50px rgba(0, 0, 0, 0.1);
+  transition: 0.9s;
+}
+
+/*Style the inside part of the card*/
+.cardInside {
+  position: absolute;
+  border-radius: 20px;
+  background-color: #fff;
+  width: 580px;
+  height: 333px;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2);
+}
+
+.inside-text {
+  position: relative;
+  top: 5px;
+  transform: scale(0.7);
+}
+
+.img2 {
+  position: relative;
+  border-radius: 25px;
+  top: -110px;
+  left: -125px;
+  bottom: 200px;
+  width: 829px;
+  height: 476px;
+}
+
+.wishes {
+  position: relative;
+  top: -100px;
+  margin: 25px;
+}
+
+p {
+  font-family: "Brush Script MT";
+  color: #333;
+}
+
+.text {
+  font-size: 12px;
+  color: #225533;
+  position: relative;
+  padding-left: 220px;
+  margin-bottom: -300px;
+  margin-top: -190px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span {
+  font-size: 14px;
+  color: #041a0a;
+  background-color: #becfc3;
+  border-radius: 5px;
+}
+
+a {
+  color: green;
+  position: relative;
+  top: -255px;
+  left: 265px;
+  font-size: 25px;
+  background: white;
+}
+
+.img4 {
+  position: relative;
+  z-index: 1;
+  height: 40px;
+  width: 25px;
+  top: -220px;
+  left: 300px;
+  transform: rotate(352deg);
+  opacity: 0.5;
+}
