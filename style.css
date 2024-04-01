@@ -47,8 +47,8 @@ body {
 
 .cardFront {
   position: relative;
+  background-color: #00bbf9;
   border-radius: 20px;
-  background-image: url("../assets/img3.png");
   width: 580px;
   height: 333px;
   overflow: hidden;
@@ -255,6 +255,10 @@ body {
   bottom: 200px;
   width: 829px;
   height: 476px;
+}
+
+.img3 {
+  position: relative;
 }
 
 .wishes {
