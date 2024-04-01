@@ -47,7 +47,7 @@ body {
 
 .cardFront {
   position: relative;
-  background-color: #00bbf9;
+  background-image: url(./assets/img3.png);
   border-radius: 20px;
   width: 580px;
   height: 333px;
