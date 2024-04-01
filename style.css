@@ -237,7 +237,9 @@ body {
 /*Style the inside part of the card*/
 .cardInside {
   position: absolute;
-  background-color: #fff;
+  background-image: url(./assets/img6.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 260px;
   height: 450px;
   z-index: -1;
