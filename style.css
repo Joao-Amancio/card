@@ -327,10 +327,10 @@ footer {
 .img7 {
   position: relative;
   border: solid 1px rgb(7, 202, 78);
-  border-radius: 50%;
-  height: 80px;
-  width: 80px;
-  left: 148px;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  left: 170px;
   top: -40px;
 }
 h6 {
