@@ -277,7 +277,7 @@ body {
 
 .wishes {
   position: relative;
-  top: -220px;
+  top: -260px;
   margin: 25px;
 }
 
@@ -324,8 +324,19 @@ footer {
   color: rgb(255, 255, 255);
 }
 
+.img7 {
+  position: relative;
+  border: solid 1px rgb(7, 202, 78);
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  left: 148px;
+  top: -40px;
+}
 h6 {
+  position: relative;
   text-align: right;
   color: gray;
+  top: -50px;
   text-shadow: 0 0 0.2em #8f7;
 }
