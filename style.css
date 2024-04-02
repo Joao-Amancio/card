@@ -8,6 +8,7 @@ body {
 /*Create the card container*/
 .birthdayCard {
   position: relative;
+  border-radius: 20px;
   width: 260px;
   height: 450px;
   cursor: pointer;
@@ -49,6 +50,7 @@ body {
 /*Style the front of the card*/
 .cardFront {
   position: relative;
+  border-radius: 20px;
   background-image: url(./assets/img5.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -237,6 +239,7 @@ body {
 /*Style the inside part of the card*/
 .cardInside {
   position: absolute;
+  border-radius: 20px;
   background-image: url(./assets/img6.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -256,7 +259,7 @@ body {
 
 .wishes {
   position: relative;
-  top: -100px;
+  top: -125px;
   margin: 25px;
 }
 
@@ -267,4 +270,55 @@ p {
 
 .name {
   margin-left: 150px;
+}
+
+.link {
+  position: relative;
+  left: 210px;
+  top: 85px;
+  font-size: 28px;
+  color: green;
+}
+
+span,
+a {
+  color: green;
+}
+
+.img4 {
+  position: relative;
+  width: 40px;
+  height: 55px;
+  top: 143px;
+  left: 175px;
+  opacity: 0.4;
+  transform: rotate(-15deg);
+  animation: bounce 1s infinite alternate;
+  -webkit-animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+
+footer {
+  position: relative;
+  top: 180px;
+  left: 138px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
 }
