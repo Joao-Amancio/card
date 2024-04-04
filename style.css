@@ -51,30 +51,101 @@ body {
 .cardFront {
   position: relative;
   border-radius: 20px;
-  background-image: url(./assets/img5.png);
+  /*background-image: url(./assets/img5.png);*/
+  background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
+
   width: 260px;
   height: 450px;
   overflow: hidden;
   transform-origin: left;
-  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.13),
-    30px 0 50px rgba(0, 0, 0, 0.1);
+  /*box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.13),
+    30px 0 50px rgba(0, 0, 0, 0.1);*/
   transition: 0.4s;
 }
 
-.happy,
-.toyou {
+.img8 {
+  position: relative;
+  left: 25%;
+  top: 2px;
+}
+
+.img9 {
+  position: relative;
+  width: 100px;
+  height: 200px;
+  top: 280px;
+  right: 90px;
+  transform: rotate(50deg);
+}
+
+.happy {
   position: relative;
   font-family: cursive;
   text-align: center;
   backface-visibility: hidden;
   font-size: 30px;
+  top: 5px;
+  color: rgb(13, 138, 13);
+}
+
+.bday {
+  position: relative;
+  font-family: arial;
+  color: rgb(43, 48, 43);
+  text-align: center;
+  top: 15px;
+}
+
+.toyou {
+  font-family: cursive;
+  backface-visibility: hidden;
+  font-size: 15px;
+  color: rgb(2, 68, 2);
+  top: 316px;
+  margin-left: 65px;
+  position: fixed;
+}
+
+.cabecalho {
+  width: 100%;
+  float: left;
+}
+
+.front-text div {
+  display: block;
 }
 
 .happy {
-  top: 180px;
-  color: rgb(13, 138, 13);
+  font-weight: 700;
+  letter-spacing: 0px;
+  background-color: white;
+  position: relative;
+  animation: motion 2s 1;
+  z-index: 1;
+}
+
+.bday {
+  font-size: 1em;
+  color: #868686;
+  letter-spacing: 0px;
+  transition: 10s;
+}
+
+@keyframes motion {
+  0% {
+    color: #fcf9f9;
+    margin-bottom: -42px;
+  }
+  30% {
+    letter-spacing: 0px;
+    margin-bottom: -42px;
+  }
+  85% {
+    letter-spacing: 0px;
+    margin-bottom: -42px;
+  }
 }
 
 .happy1 {
@@ -84,22 +155,6 @@ body {
   font-size: 10%;
   color: rgb(13, 138, 13);
   text-shadow: 7px 7px 7px gray;
-}
-
-.toyou {
-  top: 123px;
-  font-size: 15px;
-  color: rgb(2, 68, 2);
-  top: 143px;
-}
-
-.bday {
-  position: relative;
-  font-family: arial;
-  color: rgb(81, 158, 81);
-  font-size: 25px;
-  text-align: center;
-  top: 161px;
 }
 
 .bday1 {
@@ -316,12 +371,12 @@ a {
 }
 
 footer {
-  position: relative;
-  top: 180px;
+  position: fixed;
+  top: 420px;
   left: 138px;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(255, 255, 255);
+  color: rgb(47, 45, 45);
 }
 
 .img7 {
