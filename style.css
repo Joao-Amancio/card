@@ -67,17 +67,18 @@ body {
 
 .img8 {
   position: relative;
-  left: 25%;
+  left: 15%;
   top: 2px;
 }
 
 .img9 {
-  position: relative;
-  width: 100px;
-  height: 200px;
-  top: 280px;
-  right: 90px;
-  transform: rotate(50deg);
+  position: fixed;
+  width: 250px;
+  height: 448px;
+  top: 2px;
+  right: 5px;
+  z-index: 2;
+  opacity: 0.9;
 }
 
 .happy {
@@ -85,17 +86,19 @@ body {
   font-family: cursive;
   text-align: center;
   backface-visibility: hidden;
-  font-size: 30px;
-  top: 5px;
+  font-size: 25px;
+  top: -5px;
+  left: -30px;
   color: rgb(13, 138, 13);
 }
 
 .bday {
   position: relative;
   font-family: arial;
-  color: rgb(43, 48, 43);
+  color: rgb(65, 91, 65);
   text-align: center;
   top: 15px;
+  left: -30px;
 }
 
 .toyou {
@@ -103,8 +106,8 @@ body {
   backface-visibility: hidden;
   font-size: 15px;
   color: rgb(2, 68, 2);
-  top: 316px;
-  margin-left: 65px;
+  top: 240px;
+  margin-left: -10px;
   position: fixed;
 }
 
@@ -127,7 +130,7 @@ body {
 }
 
 .bday {
-  font-size: 1em;
+  font-size: 0.8em;
   color: #868686;
   letter-spacing: 0px;
   transition: 2s;
@@ -373,7 +376,7 @@ a {
 footer {
   position: fixed;
   top: 420px;
-  left: 150px;
+  left: 158px;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(47, 45, 45);
