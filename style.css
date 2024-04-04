@@ -88,7 +88,7 @@ body {
   backface-visibility: hidden;
   font-size: 25px;
   top: -5px;
-  left: -30px;
+  left: -20px;
   color: rgb(13, 138, 13);
 }
 
@@ -98,16 +98,16 @@ body {
   color: rgb(65, 91, 65);
   text-align: center;
   top: 15px;
-  left: -30px;
+  left: -20px;
 }
 
 .toyou {
   font-family: cursive;
   backface-visibility: hidden;
   font-size: 15px;
-  color: rgb(2, 68, 2);
+  color: rgb(61, 93, 61);
   top: 240px;
-  margin-left: -10px;
+  margin-left: -8px;
   position: fixed;
 }
 
