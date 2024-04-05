@@ -391,10 +391,9 @@ footer {
 
 .img7 {
   position: relative;
-  border: solid 1px rgb(7, 202, 78);
-  border-radius: 100%;
-  height: 50px;
-  width: 50px;
+  border-radius: 5px;
+  height: 65px;
+  width: 45px;
   left: 170px;
   top: -40px;
 }
