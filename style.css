@@ -74,11 +74,11 @@ body {
 }
 
 .img9 {
-  position: fixed;
+  position: relative;
   width: 250px;
   height: 448px;
-  top: 2px;
-  right: 5px;
+  top: -145px;
+  right: -5px;
   z-index: 2;
   opacity: 0.9;
 }
@@ -89,7 +89,7 @@ body {
   text-align: center;
   backface-visibility: hidden;
   font-size: 28px;
-  top: -5px;
+  top: -450px;
   left: -20px;
   color: rgb(13, 138, 13);
   border-radius: 20px;
@@ -100,8 +100,8 @@ body {
   font-family: arial;
   color: rgb(65, 91, 65);
   text-align: center;
-  top: 15px;
-  left: -20px;
+  top: -433px;
+  left: -25px;
 }
 
 .toyou {
