@@ -109,9 +109,9 @@ body {
   backface-visibility: hidden;
   font-size: 15px;
   color: rgb(61, 93, 61);
-  top: 240px;
+  top: -420px;
   margin-left: -8px;
-  position: fixed;
+  position: relative;
 }
 
 .cabecalho {
