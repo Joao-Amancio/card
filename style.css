@@ -404,3 +404,18 @@ h6 {
   top: -65px;
   text-shadow: 0 0 0.2em #8f7;
 }
+
+.logo-instagram {
+  position: relative;
+  top: -110px;
+  left: 195px;
+  font-size: 20px;
+  color: green;
+}
+
+.siga-me {
+  color: #042e1785;
+  margin-right: 20px;
+  font-size: 12px;
+  opacity: 0.8;
+}
