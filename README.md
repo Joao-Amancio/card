@@ -1,4 +1,37 @@
-# cartao digital
+# Card
+
+
+<h1 align="center"> Cartão Digital </h1>
+
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-card">Card</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </p>
+
+<br>
+
+<p> Olá! Seja bem vindo(a)!!! Fique a vontade pra navegar aqui e conhecer este Projeto de Cartão digital que está incrível!</p>
+<br>
+<p>Imagem abaixo, vista pelo desktop.</p>
+<p align="center">
+
+  <img alt="projeto DevLinks" src="https://github.com/user-attachments/assets/2a5a955d-ac7f-4ccb-b928-6e405342a9e7">
+  
+</p>
+
+## 🚀 Tecnologias
+
+Esse projeto (Anamnese) foi desenvolvido com as seguintes tecnologias:
+
+- HTML e CSS
+- Git e Github
+- Fotos e imagens
+- Animações
+
+## 💻 Card
+
+<p>Cartão digital para convites a todo e qualquer tipo de evento.</p>
+
 
 - [Acesse o Projeto Card finalizado, online](https://joao-amancio.github.io/card/)
 
