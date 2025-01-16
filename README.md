@@ -15,7 +15,7 @@
 <p>Imagem abaixo, vista pelo desktop.</p>
 <p align="center">
 
-  <img alt="projeto DevLinks" src="https://github.com/user-attachments/assets/2a5a955d-ac7f-4ccb-b928-6e405342a9e7">
+  <img alt="projeto card" src="https://github.com/user-attachments/assets/94a05f68-5773-4e06-91c8-c113ffd869f5">
   
 </p>
 
